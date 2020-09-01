@@ -1,0 +1,61 @@
+.landing {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width:720px) {
+    flex-direction: column;
+  justify-content: center;
+
+}
+  &__btn{
+      padding: 1rem 0;
+      height: 6rem;
+  }
+  &__image{
+      width:100%;
+      @media (max-width:720px) {
+      padding:1rem;
+    }
+      img{
+          width: 100%;
+      }
+  }
+  &__header {
+    padding: 5rem;
+    text-align: left;
+    @media (max-width:720px) {
+    padding: 3rem;
+        
+    }
+    h2 {
+      font-size: 3rem;
+      color:#8e2de2;
+      text-transform: capitalize;
+      @media (max-width:720px) {
+        font-size: 2rem;
+    }
+    }
+    button {
+      padding: 1rem 2rem;
+      height: 100% !important;
+      border-radius: 0.5rem;
+      color: #fff;
+      background: #8e2de2;
+      background: $gradient;
+      transition: box-shadow .5s;
+      //box-shadow: none;
+      box-shadow: 0.2rem 0 2rem rgba(#8e2de2,0.5);
+      outline:none !important;
+      border:none !important;
+
+      &:hover {
+        background: #8e2de2; /* fallback for old browsers */
+        background: $gradient;
+        color:#fff;
+        box-shadow: none;
+
+      }
+    }
+  }
+}

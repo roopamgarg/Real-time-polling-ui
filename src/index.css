@@ -5,8 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+*{
+  font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width:720px){
+  *{
+    font-size: 14px;
+  }
+}
+.ant-form-item{
+  margin-bottom: 0 !important;
+}
+.ant-space > .ant-space-item:first-child{
+  width: 100% !important;
+  margin-right: 0 !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

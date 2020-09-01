@@ -1,0 +1,105 @@
+.poll-page{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    @media (max-width:720px) {
+        display: block;
+        padding-top:2rem !important;
+    }
+    &__image{
+        width: 40%;
+        padding:1rem;
+        img{
+            width:100%;
+        }
+        @media (max-width:720px) {
+            width: 100%;
+        }
+    }
+}
+.poll{
+    text-align: left;
+    padding: 5rem 10%;
+    width: 60%;
+
+    @media (max-width:720px) {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    h2{
+        color:#8e2de2;
+        font-size:2.5rem
+    }
+    h3{
+        color:#8e2de2;
+        font-size:1.5rem
+    }
+    &__vote{
+        text-align: right;
+        margin-top: 2rem;
+    }
+    &__options{
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 0;
+        padding : 0.8rem 1rem;
+        background:#f7f7f7;
+        transition: all 0.2s;
+        cursor: pointer;
+        color:#8e2de2;
+
+        border-radius: 0.5rem;
+        position: relative;
+        &__content{
+            z-index: 1;
+            position: relative;
+        }
+        &__text{
+            flex:1;
+            margin:0 1rem;
+
+        }
+        &__votes{
+            background: linear-gradient(to right, rgba(#8e2de2,0.2), rgba(#4a00e0,0.2));
+            position: absolute;
+            left : 0;
+            height: 100%;
+            top: 0;
+        }
+        &:hover{
+            box-shadow: 0.1rem 0rem 1rem rgba(#000,0.2);
+        }
+    }
+    &__btn{
+
+        padding: 0.8rem 3rem !important;
+          height: 100% !important;
+          border-radius: 0.5rem !important;
+          color: #fff !important;
+          background: #8e2de2;
+          background: $gradient !important;
+          transition: box-shadow .5s !important;
+          //box-shadow: none;
+          box-shadow: 0.2rem 0 2rem rgba(#8e2de2,0.5) !important;
+          outline:none !important;
+          border:none !important;
+            &--copy{
+            margin:0 1rem;
+            padding: 0.8rem 2rem !important;
+            height: 100% !important;
+            border-radius: 0.5rem !important;
+            background-color: #eee !important;
+            color:#000 !important;
+            outline:none !important;
+          border:none !important;
+
+            }
+          &:hover {
+            color:#fff;
+            box-shadow: none !important;
+    
+          }
+      }
+}
