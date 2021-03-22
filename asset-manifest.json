@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Real-time-polling-ui/static/css/main.73d094ab.chunk.css",
+    "main.js": "/Real-time-polling-ui/static/js/main.a9017c03.chunk.js",
+    "main.js.map": "/Real-time-polling-ui/static/js/main.a9017c03.chunk.js.map",
+    "runtime-main.js": "/Real-time-polling-ui/static/js/runtime-main.42aacb47.js",
+    "runtime-main.js.map": "/Real-time-polling-ui/static/js/runtime-main.42aacb47.js.map",
+    "static/css/2.847e01e0.chunk.css": "/Real-time-polling-ui/static/css/2.847e01e0.chunk.css",
+    "static/js/2.395da9cb.chunk.js": "/Real-time-polling-ui/static/js/2.395da9cb.chunk.js",
+    "static/js/2.395da9cb.chunk.js.map": "/Real-time-polling-ui/static/js/2.395da9cb.chunk.js.map",
+    "index.html": "/Real-time-polling-ui/index.html",
+    "precache-manifest.0b3136c55e6e15133d169be458a8ebaa.js": "/Real-time-polling-ui/precache-manifest.0b3136c55e6e15133d169be458a8ebaa.js",
+    "service-worker.js": "/Real-time-polling-ui/service-worker.js",
+    "static/css/2.847e01e0.chunk.css.map": "/Real-time-polling-ui/static/css/2.847e01e0.chunk.css.map",
+    "static/css/main.73d094ab.chunk.css.map": "/Real-time-polling-ui/static/css/main.73d094ab.chunk.css.map",
+    "static/js/2.395da9cb.chunk.js.LICENSE.txt": "/Real-time-polling-ui/static/js/2.395da9cb.chunk.js.LICENSE.txt",
+    "static/media/pie-chart.svg": "/Real-time-polling-ui/static/media/pie-chart.b98ba7d1.svg",
+    "static/media/poll_creator.svg": "/Real-time-polling-ui/static/media/poll_creator.57a833b4.svg",
+    "static/media/poll_hero.svg": "/Real-time-polling-ui/static/media/poll_hero.5268775a.svg",
+    "static/media/real_time.svg": "/Real-time-polling-ui/static/media/real_time.c1b27570.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42aacb47.js",
+    "static/css/2.847e01e0.chunk.css",
+    "static/js/2.395da9cb.chunk.js",
+    "static/css/main.73d094ab.chunk.css",
+    "static/js/main.a9017c03.chunk.js"
+  ]
+}
