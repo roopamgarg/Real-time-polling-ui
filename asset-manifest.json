@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Real-time-polling-ui/static/css/main.73d094ab.chunk.css",
-    "main.js": "/Real-time-polling-ui/static/js/main.b4f66579.chunk.js",
-    "main.js.map": "/Real-time-polling-ui/static/js/main.b4f66579.chunk.js.map",
+    "main.js": "/Real-time-polling-ui/static/js/main.867a0a29.chunk.js",
+    "main.js.map": "/Real-time-polling-ui/static/js/main.867a0a29.chunk.js.map",
     "runtime-main.js": "/Real-time-polling-ui/static/js/runtime-main.42aacb47.js",
     "runtime-main.js.map": "/Real-time-polling-ui/static/js/runtime-main.42aacb47.js.map",
     "static/css/2.847e01e0.chunk.css": "/Real-time-polling-ui/static/css/2.847e01e0.chunk.css",
     "static/js/2.e4c953bf.chunk.js": "/Real-time-polling-ui/static/js/2.e4c953bf.chunk.js",
     "static/js/2.e4c953bf.chunk.js.map": "/Real-time-polling-ui/static/js/2.e4c953bf.chunk.js.map",
     "index.html": "/Real-time-polling-ui/index.html",
-    "precache-manifest.96466fea91eec56a225eb4c986eb7855.js": "/Real-time-polling-ui/precache-manifest.96466fea91eec56a225eb4c986eb7855.js",
+    "precache-manifest.9a50d3ad11245bc2cebeee18c5f29461.js": "/Real-time-polling-ui/precache-manifest.9a50d3ad11245bc2cebeee18c5f29461.js",
     "service-worker.js": "/Real-time-polling-ui/service-worker.js",
     "static/css/2.847e01e0.chunk.css.map": "/Real-time-polling-ui/static/css/2.847e01e0.chunk.css.map",
     "static/css/main.73d094ab.chunk.css.map": "/Real-time-polling-ui/static/css/main.73d094ab.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.847e01e0.chunk.css",
     "static/js/2.e4c953bf.chunk.js",
     "static/css/main.73d094ab.chunk.css",
-    "static/js/main.b4f66579.chunk.js"
+    "static/js/main.867a0a29.chunk.js"
   ]
 }
