@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87da6c885d889c9fa571dc1d3121108b",
+    "revision": "19535ffc236b07afb466c258858dd92a",
     "url": "/Real-time-polling-ui/index.html"
   },
   {
