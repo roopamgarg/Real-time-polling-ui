@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://roopamgarg.github.io/Real-time-polling-ui",
+  "homepage": "https://roopamgarg.in/Real-time-polling-ui",
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
     "@testing-library/jest-dom": "^4.2.4",
