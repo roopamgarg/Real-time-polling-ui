@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e899a80da245bec79bb35185a68ed542",
+    "revision": "6dd24ad53c16012d0da9b3b93967d134",
     "url": "/Real-time-polling-ui/index.html"
   },
   {
-    "revision": "86dc778f8f4f5c77197c",
+    "revision": "ddccfe7e5bacbfcc3527",
     "url": "/Real-time-polling-ui/static/css/2.847e01e0.chunk.css"
   },
   {
-    "revision": "009de5a94ed76f17bef5",
+    "revision": "0c92aeafd3a865f1149d",
     "url": "/Real-time-polling-ui/static/css/main.73d094ab.chunk.css"
   },
   {
-    "revision": "86dc778f8f4f5c77197c",
-    "url": "/Real-time-polling-ui/static/js/2.395da9cb.chunk.js"
+    "revision": "ddccfe7e5bacbfcc3527",
+    "url": "/Real-time-polling-ui/static/js/2.4c7438d7.chunk.js"
   },
   {
     "revision": "d0550c944a9928585a31b6efc1a5d942",
-    "url": "/Real-time-polling-ui/static/js/2.395da9cb.chunk.js.LICENSE.txt"
+    "url": "/Real-time-polling-ui/static/js/2.4c7438d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "009de5a94ed76f17bef5",
-    "url": "/Real-time-polling-ui/static/js/main.a9017c03.chunk.js"
+    "revision": "0c92aeafd3a865f1149d",
+    "url": "/Real-time-polling-ui/static/js/main.6f19db92.chunk.js"
   },
   {
     "revision": "025ba1911a22fd1d489a",
