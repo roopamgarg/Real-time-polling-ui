@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dd24ad53c16012d0da9b3b93967d134",
+    "revision": "9bbed16c423f29c865c76a2b306f1f6d",
     "url": "/Real-time-polling-ui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Real-time-polling-ui/static/css/2.847e01e0.chunk.css"
   },
   {
-    "revision": "0c92aeafd3a865f1149d",
+    "revision": "869b05ba6ba5e3abb8e7",
     "url": "/Real-time-polling-ui/static/css/main.73d094ab.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Real-time-polling-ui/static/js/2.4c7438d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c92aeafd3a865f1149d",
-    "url": "/Real-time-polling-ui/static/js/main.6f19db92.chunk.js"
+    "revision": "869b05ba6ba5e3abb8e7",
+    "url": "/Real-time-polling-ui/static/js/main.f704bf17.chunk.js"
   },
   {
     "revision": "025ba1911a22fd1d489a",
