@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Input, Button, Space } from 'antd';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons';
-
+import { nanoid } from 'nanoid';
 const OptionsForm = () => {
     
     const showCancel = (pos: number, field: any, remove: (name: string) => void) => {
@@ -21,7 +21,7 @@ const OptionsForm = () => {
         return (
             <div>
                 {fields.map((field: any, key: number) => (
-                    <Space key={field.key} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: 8 }} align="center">
+                    <Space key={nanoid()} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: 8 }} align="center">
                         <Form.Item
 
                             name={[field.name, 'text']}
@@ -45,7 +45,7 @@ const OptionsForm = () => {
                         }}
                     >
                         <PlusOutlined /> Add Option
-    </Button>
+                    </Button>
                 </Form.Item>
             </div>
         );

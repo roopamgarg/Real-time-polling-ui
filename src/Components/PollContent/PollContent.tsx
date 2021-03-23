@@ -3,6 +3,7 @@ import PollModel from "../../Models/Poll.model";
 import { Button, notification } from 'antd';
 import {CopyOutlined} from "@ant-design/icons";
 import addVote from '../../socket/addVote';
+import { nanoid } from 'nanoid';
 
 interface Props {
     poll: PollModel
@@ -23,7 +24,7 @@ const PollContent = ({ poll, io,copyToClipboard }: Props) => {
         return answers.map(({ text, votes }, key) => {
             const votesPercentage = (votes / (totalVotes ? totalVotes : 1)) * 100;
             return (
-                <label htmlFor={`${key}`} className="poll__options">
+                <label key={key} htmlFor={`${key}`} className="poll__options">
                     <div className="poll__options__content"><input id={`${key}`} name="option" onChange={() => setOption(key)} type="radio" /></div>
                     <div className={"poll__options__text poll__options__content"}>{text}</div>
                     <div className="poll__options__content">{votesPercentage.toPrecision(4)}%</div>
@@ -49,7 +50,6 @@ const PollContent = ({ poll, io,copyToClipboard }: Props) => {
             {renderOptions()}
             <div className="poll__vote">
                 <Button className="poll__btn--copy" onClick={copyToClipboard} type="primary"><CopyOutlined /></Button>
-
                 <Button className="poll__btn" onClick={handleAddVote} type="primary">Vote</Button>
             </div>
         </div>
